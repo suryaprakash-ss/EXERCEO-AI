@@ -1,0 +1,48 @@
+🔧 1. Project Setup
+ Create a new Python virtual environment
+
+ Install required libraries:
+
+crewai, openai, langchain, python-dotenv, pydantic, fastapi (if needed)
+
+ Set up .env file with OpenAI API keys and configuration
+
+ Initialize Git repo and basic project structure
+
+🧠 2. Crew AI Agent Development
+📌 2.1 Core Agent Infrastructure
+ Define Crew AI configuration and memory setup
+
+ Build Crew agent manager (to orchestrate agents)
+
+ Add conversational loop (input/output logic)
+
+👨‍🏫 2.2 Planner Agent
+ Prompt: Interpret fitness goals and return structured workout plans
+
+ Add memory support for saving and updating user routines
+
+ Handle variations in user intent (e.g., fat loss, muscle gain)
+
+🥗 2.3 Nutrition Agent
+ Prompt: Analyze text-based meal descriptions
+
+ Estimate calorie/macronutrient content
+
+ Generate suggestions for improvement
+
+ Add contextual responses based on user's goals
+
+💬 2.4 Motivator Agent
+ Prompt: Generate daily motivational responses
+
+ Add logic to detect engagement drop and send nudges
+
+ Make message tone adjustable (fun, serious, empathetic)
+
+📈 2.5 Progress Logger Agent
+ Parse workout logs from user input
+
+ Store sessions with date/time stamp in database
+
+ Summarize weekly logs with highlights and gaps

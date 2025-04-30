@@ -1,0 +1,6 @@
+langchain
+crewai
+openai
+python-dotenv
+pydantic
+fastapi
